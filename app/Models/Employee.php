@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Employee extends Model
 {
     use HasFactory;
-
+    public $test = 'asdas';
     protected $table = 'users';
 	// protected $primaryKey = 'leave_type_id';
 

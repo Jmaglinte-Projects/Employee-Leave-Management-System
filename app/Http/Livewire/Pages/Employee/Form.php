@@ -12,7 +12,6 @@ class Form extends Component
 {
 	use GlobalTrait;
 
-	
     public $departments;
 
 	public $id;
@@ -41,6 +40,7 @@ class Form extends Component
 
 	protected $listeners = ['edit' => 'edit'];
 
+
     /**
      * Create a new component instance.
      *
@@ -58,9 +58,9 @@ class Form extends Component
     }
 
 	public function store()
-    {	
+    {
         $this->validate();
-	
+
         // Execution doesn't reach here if validation fails.
         $this->name = "$this->user_first_name";
         $data = $this->rules;
@@ -72,7 +72,7 @@ class Form extends Component
             }
 			if($key == 'password') $data[$key] = Hash::make($this->$key);
         }
-		
+
         $result = $this->model::create($data);
 		session()->flash('message', 'User successfully added.');
 		$this->resetFields();
@@ -80,16 +80,22 @@ class Form extends Component
 
     }
 
+
     public function update() {
+        unset($this->rules['id']);
+        unset($this->rules['email']);
 		$this->validate();
 
-		// $department = Department::find($this->dep_id);
-		// $department->dep_code = $this->dep_code;
-		// $department->dep_name = $this->dep_name;
-		// $department->save();
+		$result = $this->model::find($this->id);
+        if($result) {
+            foreach($this->rules as $key => $value) {
+                $result->$key = $this->$key;
+            }
+            $result->save();
+        }
 
-		// session()->flash('message', 'Department successfully updated.');
-		// $this->emit(event: 'refreshDepartmentsTable');
+		session()->flash('message', 'User successfully updated.');
+		$this->emit(event: 'refreshEmployeesTable');
 	}
 
     public function destroy($id) {

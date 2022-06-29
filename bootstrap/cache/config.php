@@ -4,13 +4,13 @@
     'name' => 'Laravel',
     'env' => 'local',
     'debug' => true,
-    'url' => 'http://first-project.test',
+    'url' => 'http://example-project.test',
     'asset_url' => NULL,
     'timezone' => 'UTC',
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:ikw/rig+vhCDAS37ONm4zm6Xwy9ryNwTU/cyhikYRoU=',
+    'key' => 'base64:l5EIBUarrjdxOhPK4qCe0XgKQs/vI+usgiqGT1yQnkI=',
     'cipher' => 'AES-256-CBC',
     'maintenance' => 
     array (
@@ -196,7 +196,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\framework/cache/data',
+        'path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -279,7 +279,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'FIRST_PROJECT',
+        'database' => 'ELMS',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -289,9 +289,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '5432',
-        'database' => 'FIRST_PROJECT',
+        'database' => 'ELMS',
         'username' => 'postgres',
-        'password' => 'm4pl3',
+        'password' => '4dm1n',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -309,9 +309,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '5432',
-        'database' => 'FIRST_PROJECT',
+        'database' => 'ELMS',
         'username' => 'postgres',
-        'password' => 'm4pl3',
+        'password' => '4dm1n',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -324,9 +324,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '5432',
-        'database' => 'FIRST_PROJECT',
+        'database' => 'ELMS',
         'username' => 'postgres',
-        'password' => 'm4pl3',
+        'password' => '4dm1n',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -369,14 +369,14 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\app',
+        'root' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\app',
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\app/public',
-        'url' => 'http://first-project.test/storage',
+        'root' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\app/public',
+        'url' => 'http://example-project.test/storage',
         'visibility' => 'public',
         'throw' => false,
       ),
@@ -395,7 +395,7 @@
     ),
     'links' => 
     array (
-      'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\public\\storage' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\app/public',
+      'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\public\\storage' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\app/public',
     ),
   ),
   'fortify-options' => 
@@ -495,13 +495,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\logs/laravel.log',
+        'path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\logs/laravel.log',
+        'path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -553,7 +553,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\logs/laravel.log',
+        'path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -619,7 +619,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\resources\\views/vendor/mail',
+        0 => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -686,7 +686,7 @@
       2 => '127.0.0.1',
       3 => '127.0.0.1:8000',
       4 => '::1',
-      5 => 'first-project.test',
+      5 => 'example-project.test',
     ),
     'guard' => 
     array (
@@ -725,7 +725,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\framework/sessions',
+    'files' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -745,14 +745,14 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\resources\\views',
+      0 => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\resources\\views',
     ),
-    'compiled' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\storage\\framework\\views',
+    'compiled' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\storage\\framework\\views',
   ),
   'livewire' => 
   array (
     'class_namespace' => 'App\\Http\\Livewire',
-    'view_path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project\\resources\\views/livewire',
+    'view_path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System\\resources\\views/livewire',
     'layout' => 'layouts.app',
     'asset_url' => NULL,
     'app_url' => NULL,
@@ -861,7 +861,7 @@
     array (
     ),
     'enable_runnable_solutions' => true,
-    'remote_sites_path' => 'C:\\Users\\j.maglinte\\Desktop\\Repositories\\LARAVEL\\first-project',
+    'remote_sites_path' => 'D:\\WebsiteFiles\\Github\\Employee-Leave-Management-System',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',
