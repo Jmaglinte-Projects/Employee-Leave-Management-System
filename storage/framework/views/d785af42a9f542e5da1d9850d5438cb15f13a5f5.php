@@ -156,7 +156,7 @@
 			</div>
 		</div>
 	</form>
-	
+
 	<div class="mt-5">
         <?php if (isset($component)) { $__componentOriginalefe7b2bfc87a370d1e6704478a1ce04126d66a6d = $component; } ?>
 <?php $component = $__env->getContainer()->make(App\View\Components\Form\Action::class, ['type' => $TYPE] + (isset($attributes) ? (array) $attributes->getIterator() : [])); ?>

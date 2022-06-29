@@ -1,13 +1,10 @@
 <?php
 
 namespace App\View\Components\Form;
-use App\Http\Traits\GlobalTrait;
-
 use Illuminate\View\Component;
 
 class Action extends Component
 {
-    use GlobalTrait;
 	
 	public $type;
     /**

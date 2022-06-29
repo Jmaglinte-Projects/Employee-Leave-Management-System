@@ -17,7 +17,7 @@ class Table extends Component
         return view('livewire.pages.employee.table', [
 			'employees' => Employee::select()->where('user_role', 'employee')
 			->leftJoin('departments', 'user_dep_id', '=', 'dep_id')
-			->paginate(10)
+			->paginate(5)
 		]);
     }
 

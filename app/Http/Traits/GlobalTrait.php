@@ -19,4 +19,12 @@ trait GlobalTrait {
         }
 	}
 
+	public function new() {
+		$this->TYPE = 'NEW';
+        $this->resetErrorBag();
+		foreach($this->rules as $key => $value) {
+            $this->$key = null;
+        }
+	}
+
 }

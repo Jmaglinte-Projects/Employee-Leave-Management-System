@@ -104,8 +104,4 @@ class Form extends Component
         }
 	}
 
-    public function cancel() {
-        $this->resetFields();
-    }
-
 }
