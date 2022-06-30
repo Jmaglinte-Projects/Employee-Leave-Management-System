@@ -41,7 +41,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::tMfMUZEACDwrxQuq',
+            '_route' => 'generated::u86ftUtk5yXHFY0X',
           ),
           1 => NULL,
           2 => 
@@ -151,7 +151,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::WlkhaJ5BxnLPfdjd',
+            '_route' => 'generated::TM2X3Y2QwFMn7Mby',
           ),
           1 => NULL,
           2 => 
@@ -208,7 +208,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::xuxrDEXDXQ7iodnj',
+            '_route' => 'generated::5Fuovmp8Tti1ytj0',
           ),
           1 => NULL,
           2 => 
@@ -281,7 +281,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::fZNnM4KMnyH5JgXW',
+            '_route' => 'generated::fMRif7mQsh5qRgNh',
           ),
           1 => NULL,
           2 => 
@@ -411,7 +411,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::ZEKkQ8jPHGvCtODr',
+            '_route' => 'generated::qmyT7YTPL9aUvoxZ',
           ),
           1 => NULL,
           2 => 
@@ -450,7 +450,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::er8Arozs3c8z9ChZ',
+            '_route' => 'generated::SxsbJSSI0skAzMSj',
           ),
           1 => NULL,
           2 => 
@@ -489,7 +489,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::4cjQIoLVaE5ivMtX',
+            '_route' => 'generated::jIuKYOkQVAjCq3aP',
           ),
           1 => NULL,
           2 => 
@@ -509,7 +509,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::3VdT3hrGa4Gt4kZj',
+            '_route' => 'generated::MhKSuDiNg9wcmVbU',
           ),
           1 => NULL,
           2 => 
@@ -587,7 +587,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::elFFBiMuuN2ccfqS',
+            '_route' => 'generated::3zPoSrRKzoEFEsgz',
           ),
           1 => NULL,
           2 => 
@@ -607,7 +607,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::BQfS25X4F38E8EqW',
+            '_route' => 'generated::d4Dr5OnKGTJkJfPi',
           ),
           1 => NULL,
           2 => 
@@ -641,13 +641,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/department' => 
+      '/admin/department' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'department',
+            '_route' => 'admin.department',
           ),
           1 => NULL,
           2 => 
@@ -661,13 +661,13 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/leave-type' => 
+      '/admin/leave-type' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'leaveType',
+            '_route' => 'admin.leaveType',
           ),
           1 => NULL,
           2 => 
@@ -681,13 +681,53 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      '/employee' => 
+      '/admin/manage-employee' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'employee',
+            '_route' => 'admin.manageEmployee',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/employee/dashboard' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'employee.dashboard',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/employee/apply-leave' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'employee.applyLeave',
           ),
           1 => NULL,
           2 => 
@@ -830,7 +870,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::tMfMUZEACDwrxQuq' => 
+    'generated::u86ftUtk5yXHFY0X' => 
     array (
       'methods' => 
       array (
@@ -853,7 +893,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::tMfMUZEACDwrxQuq',
+        'as' => 'generated::u86ftUtk5yXHFY0X',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1099,7 +1139,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::WlkhaJ5BxnLPfdjd' => 
+    'generated::TM2X3Y2QwFMn7Mby' => 
     array (
       'methods' => 
       array (
@@ -1121,7 +1161,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::WlkhaJ5BxnLPfdjd',
+        'as' => 'generated::TM2X3Y2QwFMn7Mby',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1213,7 +1253,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::xuxrDEXDXQ7iodnj' => 
+    'generated::5Fuovmp8Tti1ytj0' => 
     array (
       'methods' => 
       array (
@@ -1236,7 +1276,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::xuxrDEXDXQ7iodnj',
+        'as' => 'generated::5Fuovmp8Tti1ytj0',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1368,7 +1408,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::fZNnM4KMnyH5JgXW' => 
+    'generated::fMRif7mQsh5qRgNh' => 
     array (
       'methods' => 
       array (
@@ -1391,7 +1431,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::fZNnM4KMnyH5JgXW',
+        'as' => 'generated::fMRif7mQsh5qRgNh',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1644,7 +1684,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::ZEKkQ8jPHGvCtODr' => 
+    'generated::qmyT7YTPL9aUvoxZ' => 
     array (
       'methods' => 
       array (
@@ -1667,7 +1707,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::ZEKkQ8jPHGvCtODr',
+        'as' => 'generated::qmyT7YTPL9aUvoxZ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1723,7 +1763,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::er8Arozs3c8z9ChZ' => 
+    'generated::SxsbJSSI0skAzMSj' => 
     array (
       'methods' => 
       array (
@@ -1744,7 +1784,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 'web',
         ),
-        'as' => 'generated::er8Arozs3c8z9ChZ',
+        'as' => 'generated::SxsbJSSI0skAzMSj',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1854,7 +1894,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::4cjQIoLVaE5ivMtX' => 
+    'generated::jIuKYOkQVAjCq3aP' => 
     array (
       'methods' => 
       array (
@@ -1866,7 +1906,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Controllers\\LivewireJavaScriptAssets@source',
         'controller' => 'Livewire\\Controllers\\LivewireJavaScriptAssets@source',
-        'as' => 'generated::4cjQIoLVaE5ivMtX',
+        'as' => 'generated::jIuKYOkQVAjCq3aP',
       ),
       'fallback' => false,
       'defaults' => 
@@ -1882,7 +1922,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::3VdT3hrGa4Gt4kZj' => 
+    'generated::MhKSuDiNg9wcmVbU' => 
     array (
       'methods' => 
       array (
@@ -1894,7 +1934,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Controllers\\LivewireJavaScriptAssets@maps',
         'controller' => 'Livewire\\Controllers\\LivewireJavaScriptAssets@maps',
-        'as' => 'generated::3VdT3hrGa4Gt4kZj',
+        'as' => 'generated::MhKSuDiNg9wcmVbU',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2019,7 +2059,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::elFFBiMuuN2ccfqS' => 
+    'generated::3zPoSrRKzoEFEsgz' => 
     array (
       'methods' => 
       array (
@@ -2036,13 +2076,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:297:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006020000000000000000";}";s:4:"hash";s:44:"+f0CecQrLJ4YfwDXXkw2fq3hESzro1Xitd4sqQD2Kzc=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006020000000000000000";}";s:4:"hash";s:44:"ZC6iZe5WnhVPcsMBIH37An2cdkHBXxoS+Bf3b5hWhkY=";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::elFFBiMuuN2ccfqS',
+        'as' => 'generated::3zPoSrRKzoEFEsgz',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2058,7 +2098,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::BQfS25X4F38E8EqW' => 
+    'generated::d4Dr5OnKGTJkJfPi' => 
     array (
       'methods' => 
       array (
@@ -2074,13 +2114,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:264:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:46:"function () {
     return \\view(\'welcome\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006040000000000000000";}";s:4:"hash";s:44:"V4p6N3y/Vct4N1U4wPinf2SG2fA2kvvdR5elByc3YJk=";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006040000000000000000";}";s:4:"hash";s:44:"igD2h4Uat7eoZPa77GCsnijIvycEtoheUPONZvSC+kQ=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::BQfS25X4F38E8EqW',
+        'as' => 'generated::d4Dr5OnKGTJkJfPi',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2112,10 +2152,11 @@ app('router')->setCompiledRoutes(
           1 => 'auth:sanctum',
           2 => 'Laravel\\Jetstream\\Http\\Middleware\\AuthenticateSession',
           3 => 'verified',
+          4 => 'admin',
         ),
         'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:274:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () {
         return \\view(\'dashboard\');
-    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006080000000000000000";}";s:4:"hash";s:44:"3Ggmb3yXtacm+g1npu4+H0VikofZ88j+v/YLbUe4zAM=";}}',
+    }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000006080000000000000000";}";s:4:"hash";s:44:"kn5+p/ktzkCwgcEoWLg1gJso7v2DeOxs2/KTlRM5BlU=";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -2137,14 +2178,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'department' => 
+    'admin.department' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'department',
+      'uri' => 'admin/department',
       'action' => 
       array (
         'middleware' => 
@@ -2153,15 +2194,16 @@ app('router')->setCompiledRoutes(
           1 => 'auth:sanctum',
           2 => 'Laravel\\Jetstream\\Http\\Middleware\\AuthenticateSession',
           3 => 'verified',
+          4 => 'admin',
         ),
-        'uses' => 'App\\Http\\Livewire\\Department\\Department@__invoke',
-        'controller' => 'App\\Http\\Livewire\\Department\\Department',
+        'uses' => 'App\\Http\\Livewire\\Admin\\Pages\\Department\\Department@__invoke',
+        'controller' => 'App\\Http\\Livewire\\Admin\\Pages\\Department\\Department',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'department',
+        'as' => 'admin.department',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2177,14 +2219,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'leaveType' => 
+    'admin.leaveType' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'leave-type',
+      'uri' => 'admin/leave-type',
       'action' => 
       array (
         'middleware' => 
@@ -2193,15 +2235,16 @@ app('router')->setCompiledRoutes(
           1 => 'auth:sanctum',
           2 => 'Laravel\\Jetstream\\Http\\Middleware\\AuthenticateSession',
           3 => 'verified',
+          4 => 'admin',
         ),
-        'uses' => 'App\\Http\\Livewire\\Pages\\LeaveType\\LeaveType@__invoke',
-        'controller' => 'App\\Http\\Livewire\\Pages\\LeaveType\\LeaveType',
+        'uses' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\LeaveType@__invoke',
+        'controller' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\LeaveType',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'leaveType',
+        'as' => 'admin.leaveType',
       ),
       'fallback' => false,
       'defaults' => 
@@ -2217,14 +2260,14 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'employee' => 
+    'admin.manageEmployee' => 
     array (
       'methods' => 
       array (
         0 => 'GET',
         1 => 'HEAD',
       ),
-      'uri' => 'employee',
+      'uri' => 'admin/manage-employee',
       'action' => 
       array (
         'middleware' => 
@@ -2233,15 +2276,93 @@ app('router')->setCompiledRoutes(
           1 => 'auth:sanctum',
           2 => 'Laravel\\Jetstream\\Http\\Middleware\\AuthenticateSession',
           3 => 'verified',
+          4 => 'admin',
         ),
-        'uses' => 'App\\Http\\Livewire\\Pages\\Employee\\Employee@__invoke',
-        'controller' => 'App\\Http\\Livewire\\Pages\\Employee\\Employee',
+        'uses' => 'App\\Http\\Livewire\\Admin\\Pages\\Employee\\Employee@__invoke',
+        'controller' => 'App\\Http\\Livewire\\Admin\\Pages\\Employee\\Employee',
         'namespace' => NULL,
-        'prefix' => '',
+        'prefix' => '/admin',
         'where' => 
         array (
         ),
-        'as' => 'employee',
+        'as' => 'admin.manageEmployee',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'employee.dashboard' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'employee/dashboard',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'employee',
+        ),
+        'uses' => 'O:47:"Laravel\\SerializableClosure\\SerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Signed":2:{s:12:"serializable";s:267:"O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:49:"function () {
+			return \\view(\'dashboard\');
+		}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000060f0000000000000000";}";s:4:"hash";s:44:"cJeNbrN5MyvrPclRN1cYQ+lbK/kslRpWgZTKwGl0wJs=";}}',
+        'namespace' => NULL,
+        'prefix' => '/employee',
+        'where' => 
+        array (
+        ),
+        'as' => 'employee.dashboard',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'employee.applyLeave' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'employee/apply-leave',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'employee',
+        ),
+        'uses' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Index@__invoke',
+        'controller' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Index',
+        'namespace' => NULL,
+        'prefix' => '/employee',
+        'where' => 
+        array (
+        ),
+        'as' => 'employee.applyLeave',
       ),
       'fallback' => false,
       'defaults' => 

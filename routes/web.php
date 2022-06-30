@@ -1,8 +1,10 @@
 <?php
 
-use App\Http\Livewire\Department\Department;
-use App\Http\Livewire\Pages\LeaveType\LeaveType;
-use App\Http\Livewire\Pages\Employee\Employee;
+use App\Http\Livewire\Admin\Pages\Department\Department;
+use App\Http\Livewire\Admin\Pages\LeaveType\LeaveType;
+use App\Http\Livewire\Admin\Pages\Employee\Employee;
+
+use App\Http\Livewire\Employee\Pages\ApplyLeave\Index as ApplyLeave;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,15 +27,26 @@ Route::get('/', function () {
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
-    'verified'
+    'verified',
+	'admin'
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
 	
-	Route::get('/department', Department::class)->name('department');
-	Route::get('/leave-type', LeaveType::class)->name('leaveType');
-	Route::get('/employee', Employee::class)->name('employee');
+	Route::prefix('admin')->group(function () {
+		Route::get('/department', Department::class)->name('admin.department');
+		Route::get('/leave-type', LeaveType::class)->name('admin.leaveType');
+		Route::get('/manage-employee', Employee::class)->name('admin.manageEmployee');
+	});
 });
 
+Route::middleware([ 'employee' ])->group(function () {
+	Route::prefix('employee')->group(function () {
+		Route::get('/dashboard', function () {
+			return view('dashboard');
+		})->name('employee.dashboard');
 
+		Route::get('/apply-leave', ApplyLeave::class)->name('employee.applyLeave');
+	});
+});

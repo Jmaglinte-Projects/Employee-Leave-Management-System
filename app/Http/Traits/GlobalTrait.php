@@ -20,7 +20,7 @@ trait GlobalTrait {
 	}
 
 	public function new() {
-		$this->TYPE = 'NEW';
+		$this->TYPE = 'CREATE';
         $this->resetErrorBag();
 		foreach($this->rules as $key => $value) {
             $this->$key = null;

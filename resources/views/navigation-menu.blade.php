@@ -12,18 +12,27 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-jet-nav-link>
-					<x-jet-nav-link href="{{ route('department') }}" :active="request()->routeIs('department')">
-                        {{ __('Department') }}
-                    </x-jet-nav-link>
-					<x-jet-nav-link href="{{ route('leaveType') }}" :active="request()->routeIs('leaveType')">
-                        {{ __('Leave Type') }}
-                    </x-jet-nav-link>
-					<x-jet-nav-link href="{{ route('employee') }}" :active="request()->routeIs('employee')">
-                        {{ __('Employee') }}
-                    </x-jet-nav-link>
+					@if (Auth::user()->user_role == 'admin')
+						<x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+							{{ __('Dashboard') }}
+						</x-jet-nav-link>
+						<x-jet-nav-link href="{{ route('admin.department') }}" :active="request()->routeIs('admin.department')">
+							{{ __('Department') }}
+						</x-jet-nav-link>
+						<x-jet-nav-link href="{{ route('admin.leaveType') }}" :active="request()->routeIs('admin.leaveType')">
+							{{ __('Leave Type') }}
+						</x-jet-nav-link>
+						<x-jet-nav-link href="{{ route('admin.manageEmployee') }}" :active="request()->routeIs('admin.manageEmployee')">
+							{{ __('Employee') }}
+						</x-jet-nav-link>
+					@else
+						<x-jet-nav-link href="{{ route('employee.dashboard') }}" :active="request()->routeIs('employee.dashboard')">
+							{{ __('Dashboard') }}
+						</x-jet-nav-link>
+						<x-jet-nav-link href="{{ route('employee.applyLeave') }}" :active="request()->routeIs('employee.applyLeave')">
+							{{ __('Apply Leave') }}
+						</x-jet-nav-link>
+					@endif
                 </div>
             </div>
 
