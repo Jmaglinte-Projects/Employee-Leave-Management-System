@@ -8,5 +8,6 @@
   'admin.pages.leave-type.form' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\Form',
   'admin.pages.leave-type.leave-type' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\LeaveType',
   'admin.pages.leave-type.table' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\Table',
+  'employee.pages.apply-leave.form' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Form',
   'employee.pages.apply-leave.index' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Index',
 );

@@ -82,7 +82,7 @@ class Form extends Component
 
     public function update() {
         unset($this->rules['id']);
-        unset($this->rules['email']);
+        $this->rules['email'] = 'required|email';
 		$this->validate();
 
 		$result = $this->model::find($this->id);
@@ -91,6 +91,8 @@ class Form extends Component
                 $result->$key = $this->$key;
 				if($key == 'password') $result->$key = Hash::make($this->$key);
             }
+			$result->email = $this->email;
+
             $result->save();
         }
 
