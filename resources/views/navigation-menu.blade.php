@@ -32,6 +32,9 @@
 						<x-jet-nav-link href="{{ route('employee.applyLeave') }}" :active="request()->routeIs('employee.applyLeave')">
 							{{ __('Apply Leave') }}
 						</x-jet-nav-link>
+                        <x-jet-nav-link href="{{ route('employee.myLeave') }}" :active="request()->routeIs('employee.myLeave')">
+							{{ __('My Leave') }}
+						</x-jet-nav-link>
 					@endif
                 </div>
             </div>

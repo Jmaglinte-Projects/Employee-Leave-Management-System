@@ -7,12 +7,11 @@ use Livewire\Component;
 class Form extends Component
 {
 	use GlobalTrait;
+    protected $listeners = ['edit' => 'edit'];
 
 	public $dep_id;
 	public $dep_code;
     public $dep_name;
-
-	protected $listeners = ['edit' => 'edit'];
 
 	public function __construct(){
         $this->model = 'App\Models\Department';

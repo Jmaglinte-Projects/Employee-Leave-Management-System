@@ -9,7 +9,7 @@
                 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition"
                 wire:click="store"
                 >
-                    Create
+                    Save
             </button>
             <button
                 type="button"
@@ -30,7 +30,7 @@
                 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition"
                 wire:click="update"
                 >
-                    Update
+                    Save
             </button>
             <button
                 type="button"
@@ -63,7 +63,7 @@
                 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition"
                 wire:click="store"
                 >
-                    Create
+                    Save
             </button>
             <button
                 type="button"

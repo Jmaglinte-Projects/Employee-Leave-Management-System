@@ -5,6 +5,7 @@ use App\Http\Livewire\Admin\Pages\LeaveType\LeaveType;
 use App\Http\Livewire\Admin\Pages\Employee\Employee;
 
 use App\Http\Livewire\Employee\Pages\ApplyLeave\Index as ApplyLeave;
+use App\Http\Livewire\Employee\Pages\MyLeave\Index as MyLeave;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,7 +34,7 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-	
+
 	Route::prefix('admin')->group(function () {
 		Route::get('/department', Department::class)->name('admin.department');
 		Route::get('/leave-type', LeaveType::class)->name('admin.leaveType');
@@ -48,5 +49,6 @@ Route::middleware([ 'employee' ])->group(function () {
 		})->name('employee.dashboard');
 
 		Route::get('/apply-leave', ApplyLeave::class)->name('employee.applyLeave');
+		Route::get('/my-leave', MyLeave::class)->name('employee.myLeave');
 	});
 });
