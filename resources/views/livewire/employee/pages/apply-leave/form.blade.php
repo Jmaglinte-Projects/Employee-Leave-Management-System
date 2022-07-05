@@ -5,16 +5,16 @@
 		
 		<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
 			<div>
-				<x-form.datepicker name="leave_from" wire:model.lazy="leave_from" label="From" />
+				<x-form.datepicker name="leave_from" wire:model="leave_from" label="From" />
 			</div>
 			<div>
-				<x-form.datepicker name="leave_to" wire:model.lazy="leave_to" label="To" />
+				<x-form.datepicker name="leave_to" wire:model="leave_to" label="To" />
 			</div>
 			<div>
-				<x-form.select name="leave_type_id" wire:model="leave_type_id" label="Leave Type"> 
+				<x-form.select name="leave_leave_type_id" wire:model="leave_leave_type_id" label="Leave Type"> 
 					<option selected>Please select here</option>
 					@foreach ($leaveTypes as $type)
-						<option value="{{ $type->leave_id}}">{{ $type->leave_type_code }}</option>
+						<option value="{{ $type->leave_type_id }}">{{ $type->leave_type_code }}</option>
 					@endforeach
 					
 				</x-form.select>

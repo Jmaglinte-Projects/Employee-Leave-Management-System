@@ -10,4 +10,6 @@
   'admin.pages.leave-type.table' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\Table',
   'employee.pages.apply-leave.form' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Form',
   'employee.pages.apply-leave.index' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Index',
+  'employee.pages.my-leaves.index' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeaves\\Index',
+  'employee.pages.my-leaves.table' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeaves\\Table',
 );
