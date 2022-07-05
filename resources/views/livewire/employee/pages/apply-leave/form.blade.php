@@ -2,7 +2,7 @@
     {{-- The Master doesn't talk, he acts. --}}
 	<form wire:submit.prevent="submit">
 		<x-message />
-		
+
 		<div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
 			<div>
 				<x-form.datepicker name="leave_from" wire:model="leave_from" label="From" />
@@ -11,13 +11,20 @@
 				<x-form.datepicker name="leave_to" wire:model="leave_to" label="To" />
 			</div>
 			<div>
+<<<<<<< HEAD
 				<x-form.select name="leave_leave_type_id" wire:model="leave_leave_type_id" label="Leave Type"> 
 					<option selected>Please select here</option>
 					@foreach ($leaveTypes as $type)
 						<option value="{{ $type->leave_type_id }}">{{ $type->leave_type_code }}</option>
+=======
+				<x-form.select name="leave_leave_type_id" wire:model="leave_leave_type_id" label="Leave Type">
+					<option selected>Please select here</option>
+					@foreach ($leaveTypes as $type)
+						<option value="{{ $type->leave_type_id}}">{{ $type->leave_type_code }}</option>
+>>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
 					@endforeach
-					
 				</x-form.select>
+                {{ $leave_leave_type_id }}
 			</div>
 			<div class="col-span-3">
 				<x-form.textarea name="leave_reason" wire:model="leave_reason" label="Reason" />

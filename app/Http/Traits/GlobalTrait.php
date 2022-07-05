@@ -3,7 +3,6 @@
 namespace App\Http\Traits;
 
 trait GlobalTrait {
-
     public $model;
 
 	protected $messages = [
@@ -20,7 +19,6 @@ trait GlobalTrait {
 	}
 
 	public function new() {
-		$this->TYPE = 'CREATE';
         $this->resetErrorBag();
 		foreach($this->rules as $key => $value) {
             $this->$key = null;

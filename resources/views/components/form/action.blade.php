@@ -30,7 +30,11 @@
                 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition"
                 wire:click="update"
                 >
+<<<<<<< HEAD
 				Save
+=======
+                    Save
+>>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
             </button>
             <button
                 type="button"
@@ -63,7 +67,11 @@
                 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition"
                 wire:click="store"
                 >
+<<<<<<< HEAD
 				Save
+=======
+                    Save
+>>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
             </button>
             <button
                 type="button"
