@@ -7,18 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Leave extends Model
 {
-    use HasFactory;
-
-<<<<<<< HEAD
-	protected $primaryKey = 'leave_id';
-
-	protected $fillable = [
-		'leave_from',
-		'leave_to',
-		'leave_leave_type_id',
-		'leave_reason',
-		'leave_user_id',
-=======
+    use HasFactory; 
     protected $primaryKey = 'leave_id';
 
 	protected $fillable = [
@@ -27,6 +16,5 @@ class Leave extends Model
         'leave_to',
         'leave_leave_type_id',
         'leave_reason',
->>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
 	];
 }

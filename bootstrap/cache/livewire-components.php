@@ -10,11 +10,6 @@
   'admin.pages.leave-type.table' => 'App\\Http\\Livewire\\Admin\\Pages\\LeaveType\\Table',
   'employee.pages.apply-leave.form' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Form',
   'employee.pages.apply-leave.index' => 'App\\Http\\Livewire\\Employee\\Pages\\ApplyLeave\\Index',
-<<<<<<< HEAD
-  'employee.pages.my-leaves.index' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeaves\\Index',
-  'employee.pages.my-leaves.table' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeaves\\Table',
-=======
   'employee.pages.my-leave.index' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeave\\Index',
   'employee.pages.my-leave.table' => 'App\\Http\\Livewire\\Employee\\Pages\\MyLeave\\Table',
->>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
 );
