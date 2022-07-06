@@ -11,17 +11,10 @@
 				<x-form.datepicker name="leave_to" wire:model="leave_to" label="To" />
 			</div>
 			<div>
-<<<<<<< HEAD
-				<x-form.select name="leave_leave_type_id" wire:model="leave_leave_type_id" label="Leave Type"> 
-					<option selected>Please select here</option>
-					@foreach ($leaveTypes as $type)
-						<option value="{{ $type->leave_type_id }}">{{ $type->leave_type_code }}</option>
-=======
 				<x-form.select name="leave_leave_type_id" wire:model="leave_leave_type_id" label="Leave Type">
 					<option selected>Please select here</option>
 					@foreach ($leaveTypes as $type)
 						<option value="{{ $type->leave_type_id}}">{{ $type->leave_type_code }}</option>
->>>>>>> f8dabf0138f06acc6f6c775aae34aaf5dee07cd4
 					@endforeach
 				</x-form.select>
                 {{ $leave_leave_type_id }}
